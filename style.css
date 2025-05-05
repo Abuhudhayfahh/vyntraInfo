@@ -116,10 +116,25 @@ form .nav-btn {
   width: 100%;
 }
 
-.feature img{
-  width: 100%;
+.first-division{
+  border-right: 1px dashed grey;
 }
 
+.first-division h1{
+  color: #e66c01;
+  font-weight: 500;
+}
+
+.first-division span{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.first-division p{
+  font-size: 15px;
+  line-height: 1.5rem;
+}
 
 /* media query */
 @media (max-width: 768px) {
@@ -179,5 +194,14 @@ form .nav-btn {
 
   .third-section p{
     text-align: left;
+  }
+
+  .first-division{
+    background-color: white;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px 5px rgba(197, 117, 5, 0.079);  
+    border-right: none;
+    padding: 2rem;
+
   }
 }
