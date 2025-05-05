@@ -94,4 +94,34 @@ form .nav-btn {
   .right-hero img {
     margin-top: 2rem;
   }
+
+  .hero{
+    text-align: center;
+  }
+
+  .left-btn {
+    background-color: #e66c01;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+  }
+  
+  .left-btn:hover {
+    box-shadow: 0px 3px 10px 5px rgba(197, 117, 5, 0.062);
+    background-color: transparent;
+    border: 1px solid #e66c01;
+    color: black;
+    transition: 0.3s all;
+  }
+
+  .hero big {
+    font-weight: 500;
+    background-color: #e66c0128;
+    padding: 0.5rem;
+    font-size: 13px;
+    color: #e66c01;
+    /* margin-top: 2rem; */
+  }
+  
 }
