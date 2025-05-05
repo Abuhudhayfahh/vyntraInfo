@@ -79,6 +79,41 @@ form .nav-btn {
   transition: 0.3s all;
 }
 
+.after-hero .after-hero-row{
+  align-items: center;
+}
+
+.after-hero .left-after-hero img{
+  width: 100%;
+}
+
+.right-after-hero h4{
+  color: #e66c01;
+  border-left: 7px solid #e66c01;
+  padding-left: 1rem;
+}
+
+.right-after-hero p{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.right-after-hero a{
+  text-decoration: none;
+}
+
+.third-section h3{
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.third-section p{
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+
 /* media query */
 @media (max-width: 768px) {
   .hero h2 {
@@ -124,4 +159,18 @@ form .nav-btn {
     /* margin-top: 2rem; */
   }
   
+  .right-after-hero p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .third-section h3{
+    font-size: 1.7rem;
+    text-align: left;
+  }
+
+  .third-section p{
+    text-align: left;
+  }
 }
