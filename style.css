@@ -112,6 +112,13 @@ form .nav-btn {
   font-size: 0.9rem;
 }
 
+.third-section img{
+  width: 100%;
+}
+
+.feature img{
+  width: 100%;
+}
 
 
 /* media query */
