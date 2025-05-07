@@ -79,61 +79,100 @@ form .nav-btn {
   transition: 0.3s all;
 }
 
-.after-hero .after-hero-row{
+.after-hero .after-hero-row {
   align-items: center;
 }
 
-.after-hero .left-after-hero img{
+.after-hero .left-after-hero img {
   width: 100%;
 }
 
-.right-after-hero h4{
+.right-after-hero h4 {
   color: #e66c01;
   border-left: 7px solid #e66c01;
   padding-left: 1rem;
 }
 
-.right-after-hero p{
+.right-after-hero p {
   font-weight: 500;
   font-size: 2rem;
 }
 
-.right-after-hero a{
+.right-after-hero a {
   text-decoration: none;
 }
 
-.third-section h3{
+.third-section h3 {
   font-size: 1.7rem;
   text-align: center;
 }
 
-.third-section p{
+.third-section p {
   text-align: center;
   font-size: 0.9rem;
 }
 
-.third-section img{
+.third-section img {
   width: 100%;
 }
 
-.first-division{
+.first-division {
   border-right: 1px dashed grey;
 }
 
-.first-division h1{
+.first-division h1 {
   color: #e66c01;
   font-weight: 500;
 }
 
-.first-division span{
+.first-division span {
   font-size: 15px;
   font-weight: bold;
   color: black;
 }
 
-.first-division p{
+.first-division p {
   font-size: 15px;
   line-height: 1.5rem;
+}
+
+.features .feature-row {
+  align-items: center;
+}
+
+.features h3 {
+  font-size: 15px;
+  background: linear-gradient(to right, #e66c01, #d9d9d9);
+  width: 17%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.features big {
+  font-size: 2.5rem;
+}
+
+.inner-feature-div {
+  background-color: #e66c01;
+  border-radius: 100%;
+  padding: 15px;
+  color: white;
+}
+
+.inner-feature {
+  font-size: 1.4rem;
+}
+
+.circle .circle-row {
+  align-items: center;
+}
+
+.circle h3 {
+  font-size: 15px;
+  background: linear-gradient(to right, #e66c01, #d9d9d9);
+  width: 17%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* media query */
@@ -152,7 +191,7 @@ form .nav-btn {
     margin-top: 2rem;
   }
 
-  .hero{
+  .hero {
     text-align: center;
   }
 
@@ -163,7 +202,7 @@ form .nav-btn {
     border: none;
     padding: 0.5rem;
   }
-  
+
   .left-btn:hover {
     box-shadow: 0px 3px 10px 5px rgba(197, 117, 5, 0.062);
     background-color: transparent;
@@ -180,28 +219,27 @@ form .nav-btn {
     color: #e66c01;
     /* margin-top: 2rem; */
   }
-  
-  .right-after-hero p{
+
+  .right-after-hero p {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
-  .third-section h3{
+  .third-section h3 {
     font-size: 1.7rem;
     text-align: left;
   }
 
-  .third-section p{
+  .third-section p {
     text-align: left;
   }
 
-  .first-division{
+  .first-division {
     background-color: white;
     margin-top: 3rem;
-    box-shadow: 0px 5px 10px 5px rgba(197, 117, 5, 0.079);  
+    box-shadow: 0px 5px 10px 5px rgba(197, 117, 5, 0.079);
     border-right: none;
     padding: 2rem;
-
   }
 }
