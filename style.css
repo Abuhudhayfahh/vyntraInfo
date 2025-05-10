@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 .body-bg{
   background: #FBF2EA;
 }
@@ -163,7 +162,7 @@ form .nav-btn {
 
 .inner-feature-div {
   background-color: #e66c01;
-  border-radius: 100%;
+  border-radius: 20%;
   padding: 15px;
   color: white;
 }
@@ -193,10 +192,64 @@ form .nav-btn {
   color: grey;
 }
 
+
 .footer-head{
   font-size: 10px;
   font-weight: bold;
 }
+
+.social-links i{
+  margin-left: 3px;
+  font-size: 13px;
+  color: white;
+  background: black;
+  padding: 5px;
+  border-radius: 30%;
+}
+
+.footer-h{
+  color: grey;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer-left input{
+  height: 3rem;
+  width: 100%;
+}
+
+.footer a{
+  text-decoration: none !important;
+}
+
+.socials i{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-button{
+  border: none;
+  background-color: #1F2937;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+.footer-button:hover{
+  background-color: transparent;
+  border: 1px solid #1F2937;
+  color: #1F2937;
+}
+
+.footer-left .mail-text {
+  color: grey;
+  font-size: 9px;
+  line-height: 10px;
+}
+
 
 /* media query */
 @media (max-width: 768px) {
