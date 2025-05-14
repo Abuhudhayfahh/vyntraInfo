@@ -31,13 +31,15 @@ form .nav-btn {
   margin-left: 1rem;
 }
 
-.hero .left-hero {
-  margin-top: 5rem;
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/Hero\ section.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem;
+  text-align: center;
 }
-
-/* .hero .mother {
-  align-items: center;
-} */
 
 .hero big {
   font-weight: 500;
@@ -50,14 +52,15 @@ form .nav-btn {
 
 .hero h2 {
   font-weight: bold;
-  font-size: 5.5rem;
-  line-height: 5rem;
+  font-size: 6rem;
+  line-height: 6rem;
+  color: white;
 }
 
 .hero p {
   color: gray;
   font-size: 13px;
-  margin-top: 1rem !important;
+  margin-top: 2rem !important;
   line-height: 1rem;
 }
 
@@ -77,7 +80,7 @@ form .nav-btn {
   box-shadow: 0px 3px 10px 5px rgba(197, 117, 5, 0.062);
   background-color: transparent;
   border: 1px solid #e66c01;
-  color: black;
+  color: white;
   width: 100%;
   transition: 0.3s all;
 }
@@ -145,7 +148,8 @@ form .nav-btn {
 }
 
 .features .feature-row img {
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  width: 100%;
 }
 
 .features h3 {
@@ -176,7 +180,7 @@ form .nav-btn {
 }
 
 .circle img {
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .circle h3 {
@@ -215,6 +219,12 @@ form .nav-btn {
 .footer-left input {
   height: 3rem;
   width: 100%;
+  outline: none;
+  border: 1px solid black;
+}
+
+.footer-left input:focus {
+  background-color: rgba(128, 128, 128, 0.07);
 }
 
 .footer a {
@@ -249,24 +259,61 @@ form .nav-btn {
   line-height: 10px;
 }
 
+.hero2 {
+  display: none;
+}
+
 /* media query */
 @media (max-width: 768px) {
-  .hero h2 {
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 3rem;
+  .hero2 {
+    display: block;
   }
 
-  .hero .left-hero {
+  .hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(images/Hero\ section.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center !important;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+  .hero2 h4 {
+    font-weight: 500;
+    background-color: #e66c0128;
+    padding: 0.5rem;
+    font-size: 10px;
+    color: #e66c01;
+    width: 70%;
+    color: white;
+  }
+
+  .hero2 h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    text-align: left;
+    color: white;
+    line-height: 2rem;
+  }
+
+  .hero2 p {
+    color: gray;
+    font-size: 10px;
+    /* margin-top: 2rem !important; */
+    line-height: 1rem;
+  }
+
+  .hero {
     margin-top: 1rem;
+    text-align: center;
+    display: none;
   }
 
   .right-hero img {
     margin-top: 2rem;
-  }
-
-  .hero {
-    text-align: center;
   }
 
   .left-btn {
@@ -288,8 +335,8 @@ form .nav-btn {
   .hero big {
     font-weight: 500;
     background-color: #e66c0128;
-    padding: 0.5rem;
-    font-size: 13px;
+    /* padding: 0.5rem; */
+    font-size: 10px;
     color: #e66c01;
     /* margin-top: 2rem; */
   }
