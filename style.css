@@ -179,10 +179,6 @@ form .nav-btn {
   align-items: center;
 }
 
-.circle img {
-  /* border-radius: 20px; */
-}
-
 .circle h3 {
   font-size: 15px;
   background: linear-gradient(to right, #e66c01, #d9d9d9);
